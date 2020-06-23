@@ -1,0 +1,21 @@
+{
+  "name": "ashov",
+  "version": "0.0.1",
+  "description": "A small collection of tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/*.test.js'",
+    "lint": "npx eslint **/*.js"
+  },
+  "author": "Stanko Arbutina",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
