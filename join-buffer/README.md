@@ -3,6 +3,7 @@
 Little accumulator class.
 
 ```javascript
+const { JoinBuffer } = require('ashov');
 const buffer = new JoinBuffer();
 buffer.on('flush', flushed => console.log(flushed));
 buffer.push('First');
