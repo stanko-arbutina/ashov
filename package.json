@@ -1,6 +1,6 @@
 {
   "name": "ashov",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small collection of tools",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,14 @@
     "lint": "npx eslint **/*.js --fix"
   },
   "files": ["**/*.js", "**/README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanko-arbutina/ashov.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanko-arbutina/ashov/issues"
+  },
+  "homepage": "https://github.com/stanko-arbutina/ashov",
   "engines" : { "node" : ">=10.16.0" },
   "author": "Stanko Arbutina <stanko.arbutina@gmail.com>",
   "license": "MIT",
