@@ -7,8 +7,9 @@
     "test": "mocha '**/*.test.js'",
     "lint": "npx eslint **/*.js --fix"
   },
+  "files": ["**/*.js", "**/README.md"],
   "engines" : { "node" : ">=10.16.0" },
-  "author": "Stanko Arbutina",
+  "author": "Stanko Arbutina <stanko.arbutina@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "camelcase": "^6.0.0",
