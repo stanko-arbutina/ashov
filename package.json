@@ -14,7 +14,7 @@
   "dependencies": {
     "camelcase": "^6.0.0",
     "chai": "^4.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mocha": "^8.0.1"
   },
   "devDependencies": {
