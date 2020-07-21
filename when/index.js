@@ -1,9 +1,12 @@
+const { isString, get, noop } = require('lodash');
+
 const when = {
-  truthy(o, fn) {
-    if (o) {
-      return fn(o);
+  exists(o, path) {
+    const target = (path && isString(path)) ? get(o, path) : o;
+    if (target) {
+      return (fn) => fn(target);
     }
-    return undefined;
+    return noop;
   },
 };
 
